@@ -1,0 +1,10 @@
+E:\C#\Sina\URL\URL\bin\Debug\URL.exe
+E:\C#\Sina\URL\URL\bin\Debug\URL.pdb
+E:\C#\Sina\URL\URL\obj\Debug\URL.Form1.resources
+E:\C#\Sina\URL\URL\obj\Debug\URL.Properties.Resources.resources
+E:\C#\Sina\URL\URL\obj\Debug\URL.csproj.GenerateResource.cache
+E:\C#\Sina\URL\URL\obj\Debug\URL.exe
+E:\C#\Sina\URL\URL\obj\Debug\URL.pdb
+E:\C#\Sina\URL\URL\bin\Debug\Newtonsoft.Json.dll
+E:\C#\Sina\URL\URL\bin\Debug\Newtonsoft.Json.xml
+E:\C#\Sina\URL\URL\obj\Debug\URL.csproj.CopyComplete
