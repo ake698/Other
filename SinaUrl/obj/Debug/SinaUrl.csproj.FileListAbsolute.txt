@@ -1,0 +1,9 @@
+D:\data\NET\Winform1\SinaUrl\bin\Debug\SinaUrl.exe
+D:\data\NET\Winform1\SinaUrl\bin\Debug\SinaUrl.pdb
+D:\data\NET\Winform1\SinaUrl\obj\Debug\SinaUrl.Form1.resources
+D:\data\NET\Winform1\SinaUrl\obj\Debug\SinaUrl.Properties.Resources.resources
+D:\data\NET\Winform1\SinaUrl\obj\Debug\SinaUrl.csproj.GenerateResource.cache
+D:\data\NET\Winform1\SinaUrl\obj\Debug\SinaUrl.csproj.CoreCompileInputs.cache
+D:\data\NET\Winform1\SinaUrl\obj\Debug\SinaUrl.exe
+D:\data\NET\Winform1\SinaUrl\obj\Debug\SinaUrl.pdb
+D:\data\NET\Winform1\SinaUrl\bin\Debug\SinaUrl.exe.config

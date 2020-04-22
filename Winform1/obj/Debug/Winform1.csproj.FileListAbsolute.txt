@@ -1,0 +1,8 @@
+D:\data\NET\Winform1\Winform1\bin\Debug\Winform1.dll
+D:\data\NET\Winform1\Winform1\bin\Debug\Winform1.pdb
+D:\data\NET\Winform1\Winform1\obj\Debug\Winform1.UserControl1.resources
+D:\data\NET\Winform1\Winform1\obj\Debug\Winform1.csproj.GenerateResource.cache
+D:\data\NET\Winform1\Winform1\obj\Debug\Winform1.csproj.CoreCompileInputs.cache
+D:\data\NET\Winform1\Winform1\obj\Debug\Winform1.dll
+D:\data\NET\Winform1\Winform1\obj\Debug\Winform1.pdb
+D:\data\NET\Winform1\Winform1\obj\Debug\Winform1.csprojAssemblyReference.cache
