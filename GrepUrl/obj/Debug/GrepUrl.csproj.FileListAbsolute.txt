@@ -1,0 +1,9 @@
+D:\data\NET\Winform1\GrepUrl\obj\Debug\GrepUrl.csprojAssemblyReference.cache
+D:\data\NET\Winform1\GrepUrl\obj\Debug\GrepUrl.Form1.resources
+D:\data\NET\Winform1\GrepUrl\obj\Debug\GrepUrl.Properties.Resources.resources
+D:\data\NET\Winform1\GrepUrl\obj\Debug\GrepUrl.csproj.GenerateResource.cache
+D:\data\NET\Winform1\GrepUrl\obj\Debug\GrepUrl.csproj.CoreCompileInputs.cache
+D:\data\NET\Winform1\GrepUrl\bin\Debug\GrepUrl.exe
+D:\data\NET\Winform1\GrepUrl\bin\Debug\GrepUrl.pdb
+D:\data\NET\Winform1\GrepUrl\obj\Debug\GrepUrl.exe
+D:\data\NET\Winform1\GrepUrl\obj\Debug\GrepUrl.pdb
