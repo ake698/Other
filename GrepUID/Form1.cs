@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace GrepUrl
+namespace GrepUID
 {
     public partial class Form1 : Form
     {
@@ -15,12 +15,10 @@ namespace GrepUrl
         {
             InitializeComponent();
         }
-        delegate void UpdateButtonDelegate(Button button,string text, bool status);
+        private bool HasFile1 = false;
+        delegate void UpdateButtonDelegate(Button button, string text, bool status);
         UpdateButtonDelegate updateButton;
 
-        //判断是否选择了文件
-        private bool HasFile1 = false;
-        private bool HasFile2 = false;
         private bool FileDialog(TextBox textBox)
         {
             OpenFileDialog fileDialog = new OpenFileDialog();
@@ -36,40 +34,32 @@ namespace GrepUrl
             }
             return false;
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            HasFile1 = this.FileDialog(this.textBox1);
+            this.EnableButton3();
+        }
 
-        public void UpdateButton(Button button,string text, bool status)
+        private void EnableButton3()
+        {
+            if (HasFile1) this.button3.Enabled = true;
+        }
+
+        public void UpdateButton(Button button, string text, bool status)
         {
             button.Enabled = status;
             button.Text = text;
         }
         public void AsyncUpdate(string text, bool status)
         {
-            this.Invoke(updateButton,this.button3, text, status);
+            this.Invoke(updateButton, this.button3, text, status);
             this.Invoke(updateButton, this.button1, "选择", status);
-            this.Invoke(updateButton, this.button2, "选择", status);
-           
-        }
 
-        private void EnableButton3()
-        {
-            if (HasFile1 && HasFile2) this.button3.Enabled=true;
-        }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            HasFile1 =  this.FileDialog(this.textBox1);
-            this.EnableButton3();
-        }
-
-     
-        private void button2_Click(object sender, EventArgs e)
-        {
-            HasFile2 = this.FileDialog(this.textBox2);
-            this.EnableButton3();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Work work = new Work(this.textBox1.Text,this.textBox2.Text);
+            Work work = new Work(this.textBox1.Text);
             work.updateButton = this.AsyncUpdate;
             Thread thread = new Thread(new ThreadStart(work.Start));
             thread.IsBackground = true;
@@ -79,26 +69,6 @@ namespace GrepUrl
         private void Form1_Load(object sender, EventArgs e)
         {
             this.updateButton = UpdateButton;
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

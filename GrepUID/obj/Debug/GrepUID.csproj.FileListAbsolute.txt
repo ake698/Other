@@ -1,0 +1,7 @@
+E:\C#\other\GrepUID\bin\Debug\GrepUID.exe
+E:\C#\other\GrepUID\bin\Debug\GrepUID.pdb
+E:\C#\other\GrepUID\obj\Debug\GrepUID.Form1.resources
+E:\C#\other\GrepUID\obj\Debug\GrepUID.Properties.Resources.resources
+E:\C#\other\GrepUID\obj\Debug\GrepUID.csproj.GenerateResource.cache
+E:\C#\other\GrepUID\obj\Debug\GrepUID.exe
+E:\C#\other\GrepUID\obj\Debug\GrepUID.pdb
