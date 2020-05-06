@@ -13,9 +13,11 @@ namespace GrepUID
         private string File1;
         private List<string> Uids;
         private bool identity = false;
+        private int count;
         public Work(string file1)
         {
             this.File1 = file1;
+            count = 0;
         }
 
         public void Start()
@@ -51,20 +53,34 @@ namespace GrepUID
             StreamReader reader = new StreamReader(file);
             string fileName = DateTime.Now.ToString("yyyy-MM-ddhhmmss");
             FileStream writeFile = new FileStream(System.Environment.CurrentDirectory + "/" + "uid" + fileName + ".txt", FileMode.Create);
+            FileStream writeFile2 = new FileStream(System.Environment.CurrentDirectory + "/" + "mail" + fileName + ".txt", FileMode.Create);
             StreamWriter write = new StreamWriter(writeFile);
+            StreamWriter write2 = new StreamWriter(writeFile2);
             string line;
-            string result;
+            string[] result;
             while((line = reader.ReadLine()) != null)
             {
-                Debug.WriteLine(line);
+                //Debug.WriteLine(line);
                 result = this.HandlerLine(line);
-                if (result == "") continue;
-                if (ContainsUrl(result))
+                if (result[0] == "none") continue;
+                if (!Uids.Contains(result[0]))
+                //if (ContainsUrl(result[0]))
                 {
-                    write.WriteLine(line);
-                    Uids.Add(result);
+                    if(result[1] == "F")
+                    {
+                        write.WriteLine(line);
+                    }
+                    else
+                    {
+                        write2.WriteLine(line);
+                    }
+                    
+                    Uids.Add(result[0]);
+                 
                 }
-                
+                count++;
+                Debug.WriteLine(count);
+
             }
 
             reader.Close();
@@ -72,29 +88,41 @@ namespace GrepUID
 
             write.Close();
             writeFile.Close();
+
+            write2.Close();
+            writeFile2.Close();
         }
 
         public bool ContainsUrl(string url)
         {
             foreach(string u in Uids)
             {
-                if (u.Trim().Equals(url.Trim())) return false;
+                if (u.Trim().Equals(url.Trim())) return false; //包含
             }
             return true;
         }
 
-        public string HandlerLine(string line)
+        public string IsMail(string username)
+        {
+            if (username.Contains("@")) return "T";
+            return "F";
+        }
+
+        //id ismail
+        public string[] HandlerLine(string line)
         {
             string[] arrs;
             string id;
             //string secren;
+            string isMail = "F";
             if (line.IndexOf("----") > -1)
             {
-                Debug.WriteLine("第二种");
+                //Debug.WriteLine("第二种");
                 line = line.Replace("----", "*");
                 arrs = line.Split('*');
-                //if (arrs.Length < 4) return new string[] { "none","" };
+                if (arrs.Length < 4) return new string[] { "none", "" };
                 id = arrs[2];
+                isMail = this.IsMail(arrs[0]);
                 //secren = arrs[0] + "----" + arrs[1] + "----" + arrs[2];
             }
             else
@@ -111,9 +139,8 @@ namespace GrepUID
                 }
                 
             }
-            string url = "https://weibo.com/u/" + id;
-            //return new string[] { url,secren};
-            return id;
+            //string url = "https://weibo.com/u/" + id;
+            return new string[] { id, isMail };
         }
 
 

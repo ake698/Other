@@ -6,3 +6,11 @@ E:\C#\other\GrepUID\obj\Release\GrepUID.Properties.Resources.resources
 E:\C#\other\GrepUID\obj\Release\GrepUID.csproj.GenerateResource.cache
 E:\C#\other\GrepUID\obj\Release\GrepUID.exe
 E:\C#\other\GrepUID\obj\Release\GrepUID.pdb
+E:\C#\other\Other\GrepUID\bin\Release\GrepUID.exe
+E:\C#\other\Other\GrepUID\bin\Release\GrepUID.pdb
+E:\C#\other\Other\GrepUID\obj\Release\GrepUID.csprojAssemblyReference.cache
+E:\C#\other\Other\GrepUID\obj\Release\GrepUID.Form1.resources
+E:\C#\other\Other\GrepUID\obj\Release\GrepUID.Properties.Resources.resources
+E:\C#\other\Other\GrepUID\obj\Release\GrepUID.csproj.GenerateResource.cache
+E:\C#\other\Other\GrepUID\obj\Release\GrepUID.exe
+E:\C#\other\Other\GrepUID\obj\Release\GrepUID.pdb

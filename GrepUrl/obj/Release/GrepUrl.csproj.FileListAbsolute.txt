@@ -6,3 +6,11 @@ D:\data\NET\Winform1\GrepUrl\obj\Release\GrepUrl.csproj.GenerateResource.cache
 D:\data\NET\Winform1\GrepUrl\obj\Release\GrepUrl.csproj.CoreCompileInputs.cache
 D:\data\NET\Winform1\GrepUrl\obj\Release\GrepUrl.exe
 D:\data\NET\Winform1\GrepUrl\obj\Release\GrepUrl.pdb
+E:\C#\other\Other\GrepUrl\bin\Release\GrepUrl.exe
+E:\C#\other\Other\GrepUrl\bin\Release\GrepUrl.pdb
+E:\C#\other\Other\GrepUrl\obj\Release\GrepUrl.csprojAssemblyReference.cache
+E:\C#\other\Other\GrepUrl\obj\Release\GrepUrl.Form1.resources
+E:\C#\other\Other\GrepUrl\obj\Release\GrepUrl.Properties.Resources.resources
+E:\C#\other\Other\GrepUrl\obj\Release\GrepUrl.csproj.GenerateResource.cache
+E:\C#\other\Other\GrepUrl\obj\Release\GrepUrl.exe
+E:\C#\other\Other\GrepUrl\obj\Release\GrepUrl.pdb
