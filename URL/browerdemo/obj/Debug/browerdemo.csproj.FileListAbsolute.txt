@@ -1,0 +1,15 @@
+E:\C#\other\Other\URL\browerdemo\obj\Debug\browerdemo.csprojAssemblyReference.cache
+E:\C#\other\Other\URL\browerdemo\obj\Debug\browerdemo.Form1.resources
+E:\C#\other\Other\URL\browerdemo\obj\Debug\browerdemo.Properties.Resources.resources
+E:\C#\other\Other\URL\browerdemo\obj\Debug\browerdemo.csproj.GenerateResource.cache
+E:\C#\other\Other\URL\browerdemo\obj\Debug\browerdemo.csproj.CoreCompileInputs.cache
+E:\C#\other\Other\URL\browerdemo\bin\Debug\browerdemo.exe.config
+E:\C#\other\Other\URL\browerdemo\bin\Debug\browerdemo.exe
+E:\C#\other\Other\URL\browerdemo\bin\Debug\browerdemo.pdb
+E:\C#\other\Other\URL\browerdemo\obj\Debug\browerdemo.exe
+E:\C#\other\Other\URL\browerdemo\obj\Debug\browerdemo.pdb
+E:\C#\other\Other\URL\browerdemo\bin\Debug\Interop.SHDocVw.dll
+E:\C#\other\Other\URL\browerdemo\bin\Debug\AxInterop.SHDocVw.dll
+E:\C#\other\Other\URL\browerdemo\obj\Debug\Interop.SHDocVw.dll
+E:\C#\other\Other\URL\browerdemo\obj\Debug\AxInterop.SHDocVw.dll
+E:\C#\other\Other\URL\browerdemo\obj\Debug\browerdemo.csproj.ResolveComReference.cache
