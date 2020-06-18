@@ -1,0 +1,9 @@
+E:\C#\other\Other\GrepMobilePhone\bin\Debug\GrepMobilePhone.exe
+E:\C#\other\Other\GrepMobilePhone\bin\Debug\GrepMobilePhone.pdb
+E:\C#\other\Other\GrepMobilePhone\obj\Debug\GrepMobilePhone.Form1.resources
+E:\C#\other\Other\GrepMobilePhone\obj\Debug\GrepMobilePhone.Properties.Resources.resources
+E:\C#\other\Other\GrepMobilePhone\obj\Debug\GrepMobilePhone.csproj.GenerateResource.cache
+E:\C#\other\Other\GrepMobilePhone\obj\Debug\GrepMobilePhone.csproj.CoreCompileInputs.cache
+E:\C#\other\Other\GrepMobilePhone\obj\Debug\GrepMobilePhone.exe
+E:\C#\other\Other\GrepMobilePhone\obj\Debug\GrepMobilePhone.pdb
+E:\C#\other\Other\GrepMobilePhone\obj\Debug\GrepMobilePhone.csprojAssemblyReference.cache

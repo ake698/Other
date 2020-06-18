@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrepUrl", "GrepUrl\GrepUrl.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrepUID", "GrepUID\GrepUID.csproj", "{3ABBD06E-A04D-4C3B-97A3-5E3B6FCD2E94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrepMobilePhone", "GrepMobilePhone\GrepMobilePhone.csproj", "{C21A45C5-28FD-45A0-9760-823C02FD3873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3ABBD06E-A04D-4C3B-97A3-5E3B6FCD2E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ABBD06E-A04D-4C3B-97A3-5E3B6FCD2E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ABBD06E-A04D-4C3B-97A3-5E3B6FCD2E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21A45C5-28FD-45A0-9760-823C02FD3873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21A45C5-28FD-45A0-9760-823C02FD3873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21A45C5-28FD-45A0-9760-823C02FD3873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21A45C5-28FD-45A0-9760-823C02FD3873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
