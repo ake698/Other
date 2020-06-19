@@ -8,3 +8,15 @@ E:\C#\Sina\URL\URL\obj\Debug\URL.pdb
 E:\C#\Sina\URL\URL\bin\Debug\Newtonsoft.Json.dll
 E:\C#\Sina\URL\URL\bin\Debug\Newtonsoft.Json.xml
 E:\C#\Sina\URL\URL\obj\Debug\URL.csproj.CopyComplete
+D:\data\C#\Others\Other\URL\URL\bin\Debug\URL.exe
+D:\data\C#\Others\Other\URL\URL\bin\Debug\URL.pdb
+D:\data\C#\Others\Other\URL\URL\bin\Debug\Newtonsoft.Json.dll
+D:\data\C#\Others\Other\URL\URL\bin\Debug\Newtonsoft.Json.xml
+D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.csprojAssemblyReference.cache
+D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.Form1.resources
+D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.Properties.Resources.resources
+D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.csproj.GenerateResource.cache
+D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.csproj.CoreCompileInputs.cache
+D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.csproj.CopyComplete
+D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.exe
+D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.pdb

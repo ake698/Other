@@ -21,6 +21,9 @@ namespace URL
         {
             InitializeComponent();
         }
+
+        
+
         //不能小于2
         private readonly int days = 30;
         private readonly string dir = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
@@ -38,19 +41,29 @@ namespace URL
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.SetButtonStatus(2);
             this.uid = this.textBox1.Text;
-            this.baseUrl = "https://m.weibo.cn/" + uid + "/";
-            this.setButoon = SetButtonStatus;
+            bool check = CheckUid(uid);
+            //bool check = true;
+            if (!check)
+            {
+                SetButtonStatus(1);
+                return;
+            }
 
-            //bool check = CheckUid(uid);
+            Works works = new Works(uid);
+            works.setButton = this.SetButtonStatus;
+            Thread thread = new Thread(new ThreadStart(works.Start));
+            thread.IsBackground = true;
+            thread.Start();
+
+            
             //if (check)
             //{
             //    SetButtonStatus(2);
             //    string more = GetContainerId(uid);
             //    List<string> ids = GetAllWB(more);
             //    GetCommentUrl(ids);
-            Thread thread = new Thread(new ThreadStart(Start));
-            thread.Start();
             //SetButtonStatus(1);
         }
 
@@ -350,7 +363,6 @@ namespace URL
                     this.start.Enabled = false;
                 }
             }), type);
-
         }
 
         private void MessageTip(string message)
