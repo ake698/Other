@@ -9,3 +9,16 @@ E:\C#\Sina\URL\URL\obj\Release\URL.csproj.CopyComplete
 E:\C#\Sina\URL\URL\obj\Release\URL.exe
 E:\C#\Sina\URL\URL\obj\Release\URL.pdb
 E:\C#\Sina\URL\URL\obj\Release\URL.csprojAssemblyReference.cache
+E:\C#\SinaMaster\Other\URL\URL\bin\Release\URL.exe
+E:\C#\SinaMaster\Other\URL\URL\bin\Release\URL.pdb
+E:\C#\SinaMaster\Other\URL\URL\bin\Release\Newtonsoft.Json.dll
+E:\C#\SinaMaster\Other\URL\URL\bin\Release\Newtonsoft.Json.xml
+E:\C#\SinaMaster\Other\URL\URL\obj\Release\URL.csprojAssemblyReference.cache
+E:\C#\SinaMaster\Other\URL\URL\obj\Release\URL.Form1.resources
+E:\C#\SinaMaster\Other\URL\URL\obj\Release\URL.LoginUI.resources
+E:\C#\SinaMaster\Other\URL\URL\obj\Release\URL.Properties.Resources.resources
+E:\C#\SinaMaster\Other\URL\URL\obj\Release\URL.csproj.GenerateResource.cache
+E:\C#\SinaMaster\Other\URL\URL\obj\Release\URL.csproj.CoreCompileInputs.cache
+E:\C#\SinaMaster\Other\URL\URL\obj\Release\URL.csproj.CopyComplete
+E:\C#\SinaMaster\Other\URL\URL\obj\Release\URL.exe
+E:\C#\SinaMaster\Other\URL\URL\obj\Release\URL.pdb

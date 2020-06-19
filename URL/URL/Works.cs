@@ -97,7 +97,8 @@ namespace URL
                 catch (WebException)
                 {
                     Debug.WriteLine("请求超时，等待中...");
-                    Thread.Sleep(10000);
+                    messageTip("请求超时...");
+                    Thread.Sleep(30000);
                     continue;
                 }
                 
@@ -324,6 +325,7 @@ namespace URL
                 Debug.WriteLine("error");
                 return false;
             }
+            Thread.Sleep(2000);
         }
 
 
