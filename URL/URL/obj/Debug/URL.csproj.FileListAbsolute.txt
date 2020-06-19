@@ -20,3 +20,16 @@ D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.csproj.CoreCompileInputs.cache
 D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.csproj.CopyComplete
 D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.exe
 D:\data\C#\Others\Other\URL\URL\obj\Debug\URL.pdb
+E:\C#\SinaMaster\Other\URL\URL\bin\Debug\URL.exe
+E:\C#\SinaMaster\Other\URL\URL\bin\Debug\URL.pdb
+E:\C#\SinaMaster\Other\URL\URL\bin\Debug\Newtonsoft.Json.dll
+E:\C#\SinaMaster\Other\URL\URL\bin\Debug\Newtonsoft.Json.xml
+E:\C#\SinaMaster\Other\URL\URL\obj\Debug\URL.csprojAssemblyReference.cache
+E:\C#\SinaMaster\Other\URL\URL\obj\Debug\URL.Form1.resources
+E:\C#\SinaMaster\Other\URL\URL\obj\Debug\URL.Properties.Resources.resources
+E:\C#\SinaMaster\Other\URL\URL\obj\Debug\URL.csproj.GenerateResource.cache
+E:\C#\SinaMaster\Other\URL\URL\obj\Debug\URL.csproj.CoreCompileInputs.cache
+E:\C#\SinaMaster\Other\URL\URL\obj\Debug\URL.csproj.CopyComplete
+E:\C#\SinaMaster\Other\URL\URL\obj\Debug\URL.exe
+E:\C#\SinaMaster\Other\URL\URL\obj\Debug\URL.pdb
+E:\C#\SinaMaster\Other\URL\URL\obj\Debug\URL.LoginUI.resources

@@ -16,6 +16,9 @@ namespace URL
         //更新按钮委托
         public delegate void AsyncSetButton(int type);
         public AsyncSetButton setButton;
+        //消息提醒委托
+        public delegate void AsyncMessageTip(string msg);
+        public AsyncMessageTip messageTip;
         private string uid;
         private CommonRequest request;
         //不能小于2 对比天数
@@ -26,6 +29,9 @@ namespace URL
         private readonly string WBFILE = "WBURL" + DateTime.Now.ToString("yyyymmddhhmmss") + ".txt";
         private readonly string PLFILE = "PLURL" + DateTime.Now.ToString("yyyymmddhhmmss") + ".txt";
         private readonly string baseUrl = "https://m.weibo.cn/";
+        public string username;
+        public string password;
+
         public Works(string uid)
         {
             this.uid = uid;
@@ -37,18 +43,22 @@ namespace URL
         public void Start()
         {
             setButton(2);
-            this.Login();
+            bool loginFlag = this.Login();
+            if (!loginFlag)
+            {
+                setButton(1);
+                return;
+            }
             string more = GetContainerId(uid);
             List<string> ids = GetAllWB(more);
             GetCommentUrl(ids);
             #region 评论获取测试
             //List<string> ids = new List<string>();
-            //ids.Add("4427628213453989");
-            //ids.Add("4517558516274607");
-            //ids.Add("4517552766482648");
+            //ids.Add("4512401191748679");
             //GetCommentUrl(ids);
             #endregion
             setButton(1);
+            Debug.WriteLine("done");
         }
 
 
@@ -214,6 +224,8 @@ namespace URL
             Debug.WriteLine("共有" + max + "页");
             while (current <= max && current<= 2) 
             {
+                Debug.WriteLine(url);
+                CommentDataHandle(id, result, wbWrite, plWrite);
                 if (result["ok"].ToString() == "0")
                 {
                     //无评论
@@ -232,11 +244,20 @@ namespace URL
                     + "&max_id=" + max_id
                     + "&max_id_type=0";
                     result = request.HttpGet(url);
+                    try
+                    {
+                        var checkdata = result["data"]["data"];
+                    }
+                    catch (NullReferenceException)
+                    {
+                        Debug.WriteLine("取值异常，休息片刻..");
+                        Debug.WriteLine(result);
+                        Thread.Sleep(5000);
+                        result = request.HttpGet(url);
+                    }
                     current++;
                     Thread.Sleep(3000);
                 }
-                Debug.WriteLine(url);
-                CommentDataHandle(id, result, wbWrite, plWrite);
                 Debug.WriteLine("评论" + (current-1).ToString() + "页,hasNext:"+hasNext.ToString());
             }
         }
@@ -244,13 +265,16 @@ namespace URL
 
         private void CommentDataHandle(string id, JObject data, StreamWriter write, StreamWriter write2)
         {
+            Debug.WriteLine("开始处理评论");
             string wbUrl = this.baseUrl + id;
             write.WriteLine(wbUrl);
+            Debug.WriteLine(wbUrl);
             foreach (var comment in data["data"]["data"])
             {
                 string rootMid = comment["mid"].ToString();
                 //需要判断此评论是否为用户自己的评论
                 string userId = comment["user"]["id"].ToString();
+                //Debug.WriteLine(comment["text"]);
                 if (userId.Equals(uid))
                 {
                     string rootResult = wbUrl + "||" + rootMid;
@@ -270,6 +294,7 @@ namespace URL
                         {
                             string childMid = child["mid"].ToString();
                             string childResult = wbUrl + "||" + childMid;
+                            Debug.WriteLine("二级评论" + childResult);
                             write2.WriteLine(childResult);
                         }
 
@@ -281,9 +306,9 @@ namespace URL
 
 
         //登录
-        public void Login()
+        public bool Login()
         {
-            Login login = new Login();
+            Login login = new Login(this.username,this.password);
             this.request = login.LoginPost();
             var result = request.HttpGet("https://m.weibo.cn/api/remind/unread");
             Debug.WriteLine(result);
@@ -291,10 +316,13 @@ namespace URL
             if(code == "1")
             {
                 Debug.WriteLine("success");
+                return true;
             }
             else
             {
+                messageTip("登录失败！");
                 Debug.WriteLine("error");
+                return false;
             }
         }
 
