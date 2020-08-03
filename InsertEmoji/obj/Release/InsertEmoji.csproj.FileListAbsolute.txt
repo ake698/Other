@@ -1,0 +1,9 @@
+E:\C#\other\Other\InsertEmoji\bin\Release\InsertEmoji.exe
+E:\C#\other\Other\InsertEmoji\bin\Release\InsertEmoji.pdb
+E:\C#\other\Other\InsertEmoji\obj\Release\InsertEmoji.Form1.resources
+E:\C#\other\Other\InsertEmoji\obj\Release\InsertEmoji.Properties.Resources.resources
+E:\C#\other\Other\InsertEmoji\obj\Release\InsertEmoji.csproj.GenerateResource.cache
+E:\C#\other\Other\InsertEmoji\obj\Release\InsertEmoji.csproj.CoreCompileInputs.cache
+E:\C#\other\Other\InsertEmoji\obj\Release\InsertEmoji.exe
+E:\C#\other\Other\InsertEmoji\obj\Release\InsertEmoji.pdb
+E:\C#\other\Other\InsertEmoji\obj\Release\InsertEmoji.csprojAssemblyReference.cache

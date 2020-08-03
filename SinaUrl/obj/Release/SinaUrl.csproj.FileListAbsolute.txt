@@ -1,0 +1,10 @@
+E:\C#\other\Other\SinaUrl\bin\Release\SinaUrl.exe.config
+E:\C#\other\Other\SinaUrl\bin\Release\SinaUrl.exe
+E:\C#\other\Other\SinaUrl\bin\Release\SinaUrl.pdb
+E:\C#\other\Other\SinaUrl\obj\Release\SinaUrl.csprojAssemblyReference.cache
+E:\C#\other\Other\SinaUrl\obj\Release\SinaUrl.Form1.resources
+E:\C#\other\Other\SinaUrl\obj\Release\SinaUrl.Properties.Resources.resources
+E:\C#\other\Other\SinaUrl\obj\Release\SinaUrl.csproj.GenerateResource.cache
+E:\C#\other\Other\SinaUrl\obj\Release\SinaUrl.csproj.CoreCompileInputs.cache
+E:\C#\other\Other\SinaUrl\obj\Release\SinaUrl.exe
+E:\C#\other\Other\SinaUrl\obj\Release\SinaUrl.pdb

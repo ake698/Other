@@ -1,0 +1,8 @@
+E:\C#\other\Other\MailGroup\bin\Release\MailGroup.exe
+E:\C#\other\Other\MailGroup\bin\Release\MailGroup.pdb
+E:\C#\other\Other\MailGroup\obj\Release\MailGroup.Form1.resources
+E:\C#\other\Other\MailGroup\obj\Release\MailGroup.Properties.Resources.resources
+E:\C#\other\Other\MailGroup\obj\Release\MailGroup.csproj.GenerateResource.cache
+E:\C#\other\Other\MailGroup\obj\Release\MailGroup.csproj.CoreCompileInputs.cache
+E:\C#\other\Other\MailGroup\obj\Release\MailGroup.exe
+E:\C#\other\Other\MailGroup\obj\Release\MailGroup.pdb
